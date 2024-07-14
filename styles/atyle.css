@@ -83,8 +83,12 @@ body{
         text-align:center;
 
     }
+    
+    
     .header-picture img{
-        margin-left:-40px;
+        width:350px;
+        height:350px;
+        /* margin-left:-40px; */
     }
     
 }
