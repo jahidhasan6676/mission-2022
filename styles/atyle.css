@@ -28,7 +28,6 @@ body{
 .header-container{
     width:80%;
     height:500px;
-    border:2px solid red;
     margin:0 auto;
     display:flex;
 
@@ -77,12 +76,99 @@ body{
 @media screen and (max-width:576px) {
     .header-container{
         flex-direction: column;
-        gap:130px;
+        gap:150px;
         
     }
     .header-content{
         text-align:center;
 
+    }
+    
+}
+/* header part and header media query end */
+
+/* mission container style start */
+.mission-container{
+    width:80%;
+    height:400px;
+    margin:0 auto;
+    margin-bottom:100px;
+}
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.mission-head{
+    width:100%;
+    height:300px;
+    margin-top:53px;
+    display:flex;
+    gap:25px;
+}
+.mission{
+    width:32%;
+    height: 300px;
+    padding:20px;
+    border-radius: 8px;
+    background: rgba(79, 157, 166, 0.1);
+}
+.mission img{
+    width:120px;
+    height:120px;
+    
+}
+.vission{
+    width:32%;
+    height: 300px;
+    padding:20px;
+    border-radius: 8px;
+    background: rgba(255, 89, 89, 0.1);
+}
+.vission img{
+    width:120px;
+    height:120px;
+}
+    
+.goals{
+    width:32%;
+    height: 300px;
+    padding:20px;
+    border-radius: 8px;
+    background: rgb(255, 244, 214);
+}
+.goals img{
+    width:120px;
+    height:120px;
+}
+.mission-title{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.mission-subscription{
+    color: rgb(66, 66, 66);
+    font-size: 13px;
+    font-weight: 400;
+    margin-top:15px;
+
+}
+
+/* media query */
+@media screen and (max-width:576px) {
+    .mission-container{
+        margin-top:500px;
+    }
+    .mission-head{
+        flex-direction:column;
+    }
+    .mission, .vission, .goals{
+        width:90%;
+    }
+    .title{
+        text-align: left;
     }
     
 }
