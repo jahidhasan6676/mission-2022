@@ -160,15 +160,72 @@ body{
 @media screen and (max-width:576px) {
     .mission-container{
         margin-top:500px;
+        width:100%;
     }
     .mission-head{
         flex-direction:column;
     }
     .mission, .vission, .goals{
-        width:90%;
+        width:100%;
     }
-    .title{
+    /* .title{
         text-align: left;
-    }
+    } */
     
+}
+/* media query style end */
+
+
+/* work develop style */
+.work-develop{
+    width:80%;
+    height:350px;
+    
+    margin:0 auto;
+    margin-bottom:100px;
+    display:flex;
+    gap:60px;
+}
+.work-pic{
+    width:40%;
+    height:350px;
+    
+}
+.work-pic img{
+    width:100%;
+    height:100%;
+}
+.work-content{
+    width:50%;
+    height:350px;
+    
+}
+.work-title{
+    color: rgb(51, 51, 51);
+    font-size: 22px;
+    font-weight: 700;
+    margin-top:50px;
+
+}
+.work-description{
+    color: rgb(62, 62, 62);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top:30px;
+    margin-bottom:30px;
+
+}
+/* media query start */
+@media screen and (max-width:576px) {
+    .work-develop{
+        flex-direction: column;
+        margin-top:700px;
+    }
+    .work-pic{
+        width:100%;
+    }
+    .work-content{
+        width:100%;
+    }
 }
