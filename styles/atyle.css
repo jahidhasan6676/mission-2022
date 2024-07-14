@@ -324,3 +324,51 @@ body{
     }
 }
 /* corona application and media query part end */
+
+/* footer part style */
+.footer{
+    width:100%;
+    height:150px;
+    background-color:black;
+}
+.footer h3{
+    
+    font-family: Lobster;
+    font-size: 28px;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+    
+    
+    
+    
+
+}
+.title2{
+    height:150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top:30px;
+    
+}
+.span2{
+    color:rgb(255, 89, 89);
+}
+.footer p{
+    color: rgb(217, 219, 225);
+    font-size: 8px;
+    font-weight: 400;
+    margin-top:15px;
+    
+    /* margin-top:80px; */
+
+}
+/* media query */
+@media screen and (max-width:576px) {
+    .footer{
+        margin-top:600px;
+        width:100%;
+    }
+}
